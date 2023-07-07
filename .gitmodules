@@ -1,3 +1,6 @@
 [submodule "spacy-ner"]
 	path = spacy-ner
 	url = https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner.git
+[submodule "veld_apis_ner_exec_1_eval_spacy2_ner"]
+	path = veld_apis_ner_exec_1_eval_spacy2_ner
+	url = https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_apis_ner_exec_1_eval_spacy2_ner.git
