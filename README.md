@@ -1,6 +1,16 @@
+## experimetnal veld repo
+
+For the current work on VELD, I need real life examples to use. This repo is one. It both serves
+the purpose of evaluating models previously trained so that they can be used in the intavia project
+and also compared to models trained with spacy3 to check for potential improvement. 
+
+At the same time, I encapsulate this work into an experimental setup to field-trial VELD prototype.
+
 ## Evaluation of spacy 2.2.4 models by Stefan
 
-There are 7 trained models. 6 of which have evaluation data in their folder.
+There are 7 trained models in https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner .
+
+6 of those have evaluation data in their folder, so that is used to validate the models.
 
 This evaluation data exists in these formats:
 - txt (1x: 2019-12-03)
@@ -73,9 +83,13 @@ The commit of the remaining code base which was copied or imported from is https
 
 ## How to reproduce
 
-I don't know the exact versions of the python interpreter and packages that were used to build this
-codebase, but I could get the model loading and this evaluation here running by using:
+I don't know the exact versions of the python interpreter and packages that were used to train the
+models, but I could get the models loading and this evaluation running by using python 3.6.15
+(3.8 or higher would crash when unpickling some eval data sets).
 
-- python 3.6.9 (needed for the unpickling of some eval data sets, 3.8 crashed)
+The code can be rerun by using the docker definition and its context in the `veld.yaml` by:
+```
+docker compose -f veld.yaml up
+```
 
-TODO
+The results are written to [./evaluations/eval.md](./evaluations/eval.md) and were pasted above.
