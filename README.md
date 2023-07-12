@@ -19,7 +19,7 @@ The results are written directly into apis spacy ner repo: https://gitlab.oeaw.a
 ## How to reproduce
 
 I don't know the exact versions of the python interpreter and packages that were used to train the
-models, but I could get the models loading and this evaluation running by using python 3.6.15 (3.8 
+models, but I could get the models loading and this evaluation running by using python 3.7.6 (3.8 
 or higher would crash when unpickling some eval data sets) and spacy 2.2.4 .
 
 The evaluation code for all models in one go can be rerun in the VELD context by using the docker 
