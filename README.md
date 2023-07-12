@@ -9,7 +9,7 @@ prototypes.
 
 ## Evaluation logic
 
-see: https://github.com/steffres/veld_executable_3_apis_ner_evaluate_old_models/blob/main/README.md
+see: https://github.com/steffres/veld_executable_3_apis_ner_evaluate_old_models/
 
 ## Evaluation results
 
