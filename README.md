@@ -84,12 +84,21 @@ The commit of the remaining code base which was copied or imported from is https
 ## How to reproduce
 
 I don't know the exact versions of the python interpreter and packages that were used to train the
-models, but I could get the models loading and this evaluation running by using python 3.6.15
-(3.8 or higher would crash when unpickling some eval data sets).
+models, but I could get the models loading and this evaluation running by using python 3.6.15 (3.8 
+or higher would crash when unpickling some eval data sets) and spacy 2.2.4 .
 
-The code can be rerun by using the docker definition and its context in the `veld.yaml` by:
+The evaluation code for all models in one go can be rerun in the VELD context by using the docker 
+definition in the `veld.yaml` and the relevant submodules by:
+
+- cloning this repo inlcuding all subrepos:
+```
+git clone --recurse-submodules https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_chain_5_apis_ner_evaluate_old_models.git
+```
+
+- running it as a docker compose service:
 ```
 docker compose -f veld.yaml up
 ```
 
-The results are written to [./evaluations/eval.md](./evaluations/eval.md) and were pasted above.
+The results are written to [./evaluations/eval.md](./evaluations/eval.md) and were pasted above 
+manually.
