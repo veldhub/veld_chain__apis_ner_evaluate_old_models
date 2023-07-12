@@ -10,7 +10,7 @@ prototypes.
 ## Evaluation logic
 
 see
-[./veld_exec_3_apis_ner_evaluate_old_models/README.md](./veld_exec_3_apis_ner_evaluate_old_models/README.md)
+[./veld_executable_3_apis_ner_evaluate_old_models/README.md](./veld_executable_3_apis_ner_evaluate_old_models/README.md)
 
 ## Evaluation results
 

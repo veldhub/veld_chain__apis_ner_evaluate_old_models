@@ -5,7 +5,7 @@ x-veld:
 services:
     veld:
         extends:
-            file: ./veld_exec_3_apis_ner_evaluate_old_models/veld.yaml
+            file: ./veld_executable_3_apis_ner_evaluate_old_models//veld.yaml
             service: veld
         volumes:
             - ./spacy-ner/:/veld/input/
