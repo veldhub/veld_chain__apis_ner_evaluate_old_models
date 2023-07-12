@@ -1,4 +1,4 @@
-## experimental veld repo
+## Experimental veld repo
 
 For the current work on VELD, I need real life examples to use. This repo is one. It both serves
 the purpose of evaluating models previously trained so that they can be used in the intavia project
@@ -25,7 +25,7 @@ or higher would crash when unpickling some eval data sets) and spacy 2.2.4 .
 The evaluation code for all models in one go can be rerun in the VELD context by using the docker 
 definition in the `veld.yaml` and the relevant submodules by:
 
-- cloning this repo inlcuding all subrepos:
+- cloning this repo inlcuding all subrepos (this takes a while as spacy ner has a size of 20GB):
 ```
 git clone --recurse-submodules https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_chain_5_apis_ner_evaluate_old_models.git
 ```
