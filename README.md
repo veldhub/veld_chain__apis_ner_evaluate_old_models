@@ -1,10 +1,11 @@
-## experimetnal veld repo
+## experimental veld repo
 
 For the current work on VELD, I need real life examples to use. This repo is one. It both serves
 the purpose of evaluating models previously trained so that they can be used in the intavia project
 and also compared to models trained with spacy3 to check for potential improvement. 
 
-At the same time, I encapsulate this work into an experimental setup to field-trial VELD prototype.
+At the same time, I encapsulate this work into an experimental setup to field-trial VELD 
+prototypes.
 
 ## Evaluation of spacy 2.2.4 models by Stefan
 
