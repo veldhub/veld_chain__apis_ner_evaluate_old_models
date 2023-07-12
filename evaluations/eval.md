@@ -42,7 +42,7 @@
 - model: **ner_apis_2020-04-30_11:24:09**
   - evaluation data description:
     - evaluation file: ner_apis_2020-04-30_11:24:09/corpus/evalset.json
-    - evaluation data size: count sentences: 904, count NER tags: 3144
+    - evaluation data size: count sentences: 904, count NER tags: 3144 (BILOU tags, so plenty of redundancies)
     - NER tags: ('LOC', 'MISC', 'ORG', 'PER')
   - evaluations:
     - manual evaluation: **p: 81.77, r: 23.6**
