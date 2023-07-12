@@ -3,4 +3,4 @@
 	url = https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner.git
 [submodule "veld_executable_3_apis_ner_evaluate_old_models"]
 	path = veld_executable_3_apis_ner_evaluate_old_models
-	url = https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_executable_3_apis_ner_evaluate_old_models.git
+	url = git@github.com:steffres/veld_executable_3_apis_ner_evaluate_old_models.git
