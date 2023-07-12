@@ -1,5 +1,6 @@
 x-veld:
     veld_chain:
+        description: "hard-coded evaluation of several spacy2.2.4 models"
 
 services:
     veld:
