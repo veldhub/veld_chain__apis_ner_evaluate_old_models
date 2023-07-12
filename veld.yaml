@@ -8,4 +8,4 @@ services:
             service: veld
         volumes:
             - ./spacy-ner/:/veld/input/
-            - ./evaluations/:/veld/output/
+            - ./spacy-ner/:/veld/output/
