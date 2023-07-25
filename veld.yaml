@@ -5,6 +5,7 @@ x-veld:
       scope: 
         - "NLP"
         - "Machine Learning"
+        - "Named Entity Recognition"
 
 services:
   veld:
