@@ -1,12 +1,17 @@
 x-veld:
-    veld_chain:
-        description: "hard-coded evaluation of several spacy2.2.4 models"
+  chain:
+    about:
+      description: "hard-coded evaluation of several spacy2.2.4 models."
+      scope: 
+        - "NLP"
+        - "Machine Learning"
 
 services:
-    veld:
-        extends:
-            file: ./veld_executable_3_apis_ner_evaluate_old_models//veld.yaml
-            service: veld
-        volumes:
-            - ./spacy-ner/:/veld/input/
-            - ./spacy-ner/:/veld/output/
+  veld:
+    extends:
+      file: ./veld_executable_3_apis_ner_evaluate_old_models/veld.yaml
+      service: veld
+    volumes:
+      - ./spacy-ner/:/veld/input/
+      - ./spacy-ner/:/veld/output/
+
