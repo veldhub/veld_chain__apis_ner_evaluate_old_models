@@ -1,6 +1,6 @@
 [submodule "spacy-ner"]
 	path = spacy-ner
 	url = https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner.git
-[submodule "veld_executable_3_apis_ner_evaluate_old_models"]
-	path = veld_executable_3_apis_ner_evaluate_old_models
-	url = https://github.com/acdh-oeaw/veld_executable_3_apis_ner_evaluate_old_models.git
+[submodule "veld_code_3_apis_ner_evaluate_old_models"]
+	path = veld_code_3_apis_ner_evaluate_old_models
+	url = https://github.com/acdh-oeaw/veld_code_3_apis_ner_evaluate_old_models.git
