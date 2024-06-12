@@ -16,5 +16,5 @@ services:
       - ./spacy-ner/:/veld/input/
       - ./spacy-ner/:/veld/output/
     environment:
-      eval_result_file: "/veld/output/reevaluations_all.md:/veld/output/reevaluations_all.md"
+      out_eval_result_file: "reevaluations_all.md"
 
