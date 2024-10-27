@@ -1,11 +1,10 @@
 x-veld:
   chain:
-    about:
-      description: "hard-coded evaluation of several spaCy 2.2.4 models."
-      topics: 
-        - "NLP"
-        - "Machine learning"
-        - "Named entity recognition"
+    description: "hard-coded evaluation of several spaCy 2.2.4 models."
+    topics: 
+      - "NLP"
+      - "Machine learning"
+      - "Named entity recognition"
 
 services:
   veld:
