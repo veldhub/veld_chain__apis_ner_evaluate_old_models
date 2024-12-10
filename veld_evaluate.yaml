@@ -7,13 +7,13 @@ x-veld:
       - "Named entity recognition"
 
 services:
-  veld:
+  veld_evaluate:
     extends:
-      file: ./veld_code_3_apis_ner_evaluate_old_models/veld.yaml
-      service: veld
+      file: ./code/veld_code__apis_ner_evaluate_old_models/veld_evaluate.yaml
+      service: veld_evaluate
     volumes:
-      - ./spacy-ner/:/veld/input/
-      - ./spacy-ner/:/veld/output/
+      - ./data/spacy-ner/:/veld/input/
+      - ./data/spacy-ner/:/veld/output/
     environment:
       out_eval_result_file: "reevaluations_all.md"
 
