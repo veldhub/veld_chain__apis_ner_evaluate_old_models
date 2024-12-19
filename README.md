@@ -1,19 +1,11 @@
-# Experimental VELD chain
+# APIS NER evaluate
 
-For the current work on VELD, I need real life examples to use. This repo is one. It both serves
-the purpose of evaluating models previously trained so that they can be used in the intavia project
-and also compared to models trained with spacy3 to check for potential improvement. 
-
-At the same time, I encapsulate this work into an experimental setup to field-trial VELD 
-prototypes.
-
-## Evaluation logic
-
-see: https://github.com/steffres/veld_executable_3_apis_ner_evaluate_old_models/
+This chain veld evalutes old spacy models, trained in the APIS / ÖBL context.
 
 ## Evaluation results
 
-The results are written directly into apis spacy ner repo: https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner/-/blob/master/reevaluations_all.md 
+The results are written directly into apis spacy ner repo: 
+https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner/-/blob/master/reevaluations_all.md 
 
 ## How to reproduce
 
@@ -26,10 +18,10 @@ definition in the `veld.yaml` and the relevant submodules by:
 
 - cloning this repo inlcuding all subrepos (this takes a while as spacy ner has a size of 20GB):
 ```
-git clone --recurse-submodules https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_chain_5_apis_ner_evaluate_old_models.git
+git clone --recurse-submodules https://github.com/veldhub/veld_chain__apis_ner_evaluate_old_models.git
 ```
 
 - running it as a docker compose service:
 ```
-docker compose -f veld.yaml up
+docker compose -f veld_evaluate.yaml up
 ```
