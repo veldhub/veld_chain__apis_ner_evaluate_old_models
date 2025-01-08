@@ -1,6 +1,3 @@
-[submodule "code/veld_code__apis_ner_evaluate_old_models"]
-	path = code/veld_code__apis_ner_evaluate_old_models
-	url = https://github.com/veldhub/veld_code__apis_ner_evaluate_old_models.git
 [submodule "data/spacy-ner"]
 	path = data/spacy-ner
 	url = https://gitlab.oeaw.ac.at/acdh-ch/apis/spacy-ner.git
