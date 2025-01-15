@@ -19,6 +19,8 @@ git clone --recurse-submodules https://github.com/veldhub/veld_chain__apis_ner_e
 
 ## how to reproduce
 
+The following chain velds were used. Open the respective veld yaml file for more information.
+
 **[./veld_evaluate.yaml](./veld_evaluate.yaml)** 
 
 Reruns the evalation. Note: I couldn't find out the exact versions of the python interpreter and
